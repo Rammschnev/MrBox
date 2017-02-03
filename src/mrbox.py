@@ -312,7 +312,7 @@ def main():
 ######    MR. BOX:
 #    #
 ########      The friendly box-stacking proof-of-concept script
-#      #         2017 Deives Collins
+#      #         (c) 2017 Deives Collins | MIT License
 ######## \n""")
 
     print("Mr. Box is a practice program designed to solve the following problem:\n")
