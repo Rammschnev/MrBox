@@ -61,7 +61,7 @@ class Box:
         self.l,self.w = base[0],base[1]
 
 class Tracker:
-    """ Class for tracking progress of iteratated tasks"""
+    """ Class for tracking progress of iteratated tasks """
     alignment = 40
     
     def __init__(self, total, text):
