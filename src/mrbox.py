@@ -1,5 +1,7 @@
 """
-Mr. Box: practice box-sorting script
+Mr. Box:
+Practice box-sorting problem solution script in Python 3.5.2
+
 The MIT License:
 Copyright (c) 2017 Deives Collins
 Permission is hereby granted, free of charge, to any person obtaining a copy
