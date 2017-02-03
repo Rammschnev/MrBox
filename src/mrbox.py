@@ -328,13 +328,18 @@ def main():
 
     count = ''
     while not count.isnumeric():
-        print("How many boxes will be in the set?")
+        print("How many boxes will be in the set? (max 20)")
         print("# of boxes:",end=' ')
         count = input()
         print("")
         if not count.isnumeric():
             print("Error:")
             print("# of boxes must be entered in numeric characters (1,2,3, ...) only\n")
+        elif int(count) > 20:
+            print("Error:")
+            print("Mr. Box cannot process more than 20 boxes without the risk of freezing")
+            print("your computer.\n")
+            count = ''
     count = int(count)
 
     boxes = []
